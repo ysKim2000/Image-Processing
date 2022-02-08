@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-path = os.path.join('Test_Code/j.jpg')
+path = os.path.join('image/j.jpg')
 img = cv2.imread(path)
 
 k = cv2.getStructuringElement(cv2.MORPH_RECT,(3,3))

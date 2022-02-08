@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-path = os.path.join('Test_Code/Son.jpg')
+path = os.path.join('image/Son.jpg')
 img = cv2.cvtColor(cv2.imread(path), cv2.COLOR_BGR2GRAY)
 
 kernel = np.ones((3,3), np.uint8)
