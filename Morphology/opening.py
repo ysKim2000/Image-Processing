@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-path = os.path.join('image/noise.png')
+path = os.path.join('./Morphology/image/noise.png')
 img = cv2.imread(path)
 
 kernel = np.ones((5,5), np.uint8)

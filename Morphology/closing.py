@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-path = os.path.join('image/man.png')
+path = os.path.join('./Morphology/image/man.png')
 img = cv2.imread(path)
 
 kernel = np.ones((11,11), np.uint8)

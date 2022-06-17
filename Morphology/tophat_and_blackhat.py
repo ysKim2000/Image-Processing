@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 
-path = os.path.join('image/Moon.jpg')
+path = os.path.join('./Morphology/image/Moon.jpg')
 img = cv2.imread(path)
 
 kernel = np.ones((12,12), np.uint8)
